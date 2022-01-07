@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Material+Icons+Outlined');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+.container
+{
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    font-family: Montserrat;
+    color: royalblue;
+    font-size: 20px;
+}
+.bg{
+  background-color: royalblue;
+  color: #fff;
+}
+.output .input{
+    color: #555;
+    padding: 5px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.output .input1{
+    font-size: 20px;
+    color: #777;
+    padding: 5px;
+    margin-top: -5%;
+}
+.box{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    border-bottom: 1px solid rgba(85, 85, 85, 0.219);
+    margin-top: 30%;
+    margin-bottom: 2%;
+}
+.output{
+    width: 100%;
+    height: 60px;
+    justify-content: right;
+}
+.btn{
+    position: relative;
+    width: 100%;
+    float: left;
+    margin-top: 2%;
+    margin-left: 5%;
+    
+
+}
+.ul{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.ul  #c{
+    color: royalblue;
+    font-size: 25px;
+    cursor: pointer;
+    padding-right: 10px;
+    
+    
+}
+.btn .in{
+     width: 25%;
+     background-color: #fff;
+     color: #555;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 500;
+     border: none;
+     transition: all .3s ease-out;
+     outline: none;
+     font-size: 20px;
+     margin-top: 1%;
+     height: 40px;
+}
+.btn .in:hover{
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: royalblue;
+}
+.btn .click-btn{
+    color: royalblue;
+    font-size: 20px;
+    background-color: #fff;
+    width: 25%;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    outline:none ;
+    margin-top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn .bg{
+    width: 25%;
+    background-color: royalblue;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50%;
+}
+.bg-img{
+   
+    position: relative;
+    background-image: url("https://th.bing.com/th/id/R.0b00d61a63097fbf45106e1193aa8a4a?rik=ddH8eIpP1u83sA&riu=http%3a%2f%2fwww.pngmart.com%2ffiles%2f7%2fMobile-Phone-PNG-Photos.png&ehk=00qPaPw5BL5vNjKBmVinhhPEDxWpqqXORlckmUP%2fEWA%3d&risl=&pid=ImgRaw&r=0");
+    width: 30%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}

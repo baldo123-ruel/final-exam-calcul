@@ -1,0 +1,48 @@
+<div class="container">
+ 
+  <div class="bg-img">
+   <div class="box">
+    <h1 class="title">{{title}}</h1>
+      <div class="output">
+        <h3 class="input">{{output}}</h3>
+        <h3 class="input1">{{display}}</h3>
+      </div>
+ 
+   
+     
+
+       
+   
+ <br><br>
+ 
+    <div class="btn">
+      <div class="ul">
+        <span id="c" (click)= "clearall()">C</span>
+        <span id="c"class="material-icons-outlined" (click)= "clear()">arrow_back</span>
+     </div>
+      <input class="in" type="button" (click)="num('9')" value="9">
+      <input class="in" type="button" (click)="num('8')"value="8">
+      <input class="in" type="button" (click)="num('7')"value="7">
+      <input class="click-btn" type="button" (click)="operator('/')"value="/">
+    </div>
+    <div class="btn">
+      <input class="in"  type="button" (click)="num('6')"value="6">
+      <input class="in"  type="button" (click)="num('5')"value="5">
+      <input class="in" type="button" (click)="num('4')"value="4">
+      <input class="click-btn" type="button" (click)="operator('*')"value="x">
+    </div>
+    <div class="btn">
+      <input class="in" type="button" (click)="num('3')"value="3">
+      <input class="in" type="button" (click)="num('2')"value="2">
+      <input class="in" type="button" (click)="num('1')"value="1">
+      <input class="click-btn" type="button" (click)="operator('-')"value="-">
+    </div>
+    <div class="btn">
+      <input class="in"  type="button" (click)="num('.')" value=".">
+      <input class="in" type="button" (click)="num('0')"value="9">
+      <input class="click-btn" type="button" (click)="operator('+')"value="+">
+      <input class="bg" type="button" (click)="calinput()"value="=">
+    </div>
+    </div>
+ 
+  </div>
